@@ -6,6 +6,8 @@ UM Settings -> General -> Users -> "Additional Fields for reduced Member Directo
 Enter additional meta_key names comma separated to exclude from Member Directory Searches.
 
 For example exclude UNIX Timestamps (integer values) from being searched like <code>_um_last_login</code> to reduce DB load.
+
+Meta_keys with names containing <code>avatar</code> and <code>photo</code> are also searched by WP and can be excluded.
 ## Installation ##
 1. Download zip file.
 2. Upload the zip file as a new plugin to Wordpress
